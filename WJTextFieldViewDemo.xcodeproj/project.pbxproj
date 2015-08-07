@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C1C72491B747EC6003ACFF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C72481B747EC6003ACFF8 /* main.m */; };
+		9C1C724C1B747EC6003ACFF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C724B1B747EC6003ACFF8 /* AppDelegate.m */; };
+		9C1C724F1B747EC6003ACFF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C724E1B747EC6003ACFF8 /* ViewController.m */; };
+		9C1C72521B747EC6003ACFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1C72501B747EC6003ACFF8 /* Main.storyboard */; };
+		9C1C72541B747EC6003ACFF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1C72531B747EC6003ACFF8 /* Images.xcassets */; };
+		9C1C72571B747EC6003ACFF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C1C72551B747EC6003ACFF8 /* LaunchScreen.xib */; };
+		9C1C72631B747EC6003ACFF8 /* WJTextFieldViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C72621B747EC6003ACFF8 /* WJTextFieldViewDemoTests.m */; };
+		9C1C72721B747F17003ACFF8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9C1C726D1B747F17003ACFF8 /* LICENSE */; };
+		9C1C72731B747F17003ACFF8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C726F1B747F17003ACFF8 /* MBProgressHUD.m */; };
+		9C1C72741B747F17003ACFF8 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C72701B747F17003ACFF8 /* README.mdown */; };
+		9C1C72771B747F71003ACFF8 /* WJTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C72761B747F71003ACFF8 /* WJTextFieldView.m */; };
+		9C1C72791B748231003ACFF8 /* common_edit_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1C72781B748231003ACFF8 /* common_edit_bg@2x.png */; };
+		9C1C727B1B748B07003ACFF8 /* wj.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9C1C727A1B748B07003ACFF8 /* wj.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C1C725D1B747EC6003ACFF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C1C723B1B747EC6003ACFF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C1C72421B747EC6003ACFF8;
+			remoteInfo = WJTextFieldViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C1C72431B747EC6003ACFF8 /* WJTextFieldViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJTextFieldViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1C72471B747EC6003ACFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1C72481B747EC6003ACFF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C1C724A1B747EC6003ACFF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C1C724B1B747EC6003ACFF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C1C724D1B747EC6003ACFF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C1C724E1B747EC6003ACFF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C1C72511B747EC6003ACFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C1C72531B747EC6003ACFF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C1C72561B747EC6003ACFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9C1C725C1B747EC6003ACFF8 /* WJTextFieldViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJTextFieldViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1C72611B747EC6003ACFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1C72621B747EC6003ACFF8 /* WJTextFieldViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJTextFieldViewDemoTests.m; sourceTree = "<group>"; };
+		9C1C726D1B747F17003ACFF8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9C1C726E1B747F17003ACFF8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9C1C726F1B747F17003ACFF8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9C1C72701B747F17003ACFF8 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		9C1C72751B747F71003ACFF8 /* WJTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTextFieldView.h; sourceTree = "<group>"; };
+		9C1C72761B747F71003ACFF8 /* WJTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTextFieldView.m; sourceTree = "<group>"; };
+		9C1C72781B748231003ACFF8 /* common_edit_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_edit_bg@2x.png"; sourceTree = "<group>"; };
+		9C1C727A1B748B07003ACFF8 /* wj.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wj.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C1C72401B747EC6003ACFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1C72591B747EC6003ACFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C1C723A1B747EC6003ACFF8 = {
+			isa = PBXGroup;
+			children = (
+				9C1C72451B747EC6003ACFF8 /* WJTextFieldViewDemo */,
+				9C1C725F1B747EC6003ACFF8 /* WJTextFieldViewDemoTests */,
+				9C1C72441B747EC6003ACFF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C1C72441B747EC6003ACFF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C72431B747EC6003ACFF8 /* WJTextFieldViewDemo.app */,
+				9C1C725C1B747EC6003ACFF8 /* WJTextFieldViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C1C72451B747EC6003ACFF8 /* WJTextFieldViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C727A1B748B07003ACFF8 /* wj.gif */,
+				9C1C724A1B747EC6003ACFF8 /* AppDelegate.h */,
+				9C1C724B1B747EC6003ACFF8 /* AppDelegate.m */,
+				9C1C724D1B747EC6003ACFF8 /* ViewController.h */,
+				9C1C724E1B747EC6003ACFF8 /* ViewController.m */,
+				9C1C72501B747EC6003ACFF8 /* Main.storyboard */,
+				9C1C726C1B747F17003ACFF8 /* MBProgressHUD */,
+				9C1C72711B747F17003ACFF8 /* WJTextFieldView */,
+				9C1C72531B747EC6003ACFF8 /* Images.xcassets */,
+				9C1C72551B747EC6003ACFF8 /* LaunchScreen.xib */,
+				9C1C72461B747EC6003ACFF8 /* Supporting Files */,
+			);
+			path = WJTextFieldViewDemo;
+			sourceTree = "<group>";
+		};
+		9C1C72461B747EC6003ACFF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C72781B748231003ACFF8 /* common_edit_bg@2x.png */,
+				9C1C72471B747EC6003ACFF8 /* Info.plist */,
+				9C1C72481B747EC6003ACFF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C1C725F1B747EC6003ACFF8 /* WJTextFieldViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C72621B747EC6003ACFF8 /* WJTextFieldViewDemoTests.m */,
+				9C1C72601B747EC6003ACFF8 /* Supporting Files */,
+			);
+			path = WJTextFieldViewDemoTests;
+			sourceTree = "<group>";
+		};
+		9C1C72601B747EC6003ACFF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C72611B747EC6003ACFF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C1C726C1B747F17003ACFF8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C726D1B747F17003ACFF8 /* LICENSE */,
+				9C1C726E1B747F17003ACFF8 /* MBProgressHUD.h */,
+				9C1C726F1B747F17003ACFF8 /* MBProgressHUD.m */,
+				9C1C72701B747F17003ACFF8 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		9C1C72711B747F17003ACFF8 /* WJTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C72751B747F71003ACFF8 /* WJTextFieldView.h */,
+				9C1C72761B747F71003ACFF8 /* WJTextFieldView.m */,
+			);
+			path = WJTextFieldView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C1C72421B747EC6003ACFF8 /* WJTextFieldViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1C72661B747EC6003ACFF8 /* Build configuration list for PBXNativeTarget "WJTextFieldViewDemo" */;
+			buildPhases = (
+				9C1C723F1B747EC6003ACFF8 /* Sources */,
+				9C1C72401B747EC6003ACFF8 /* Frameworks */,
+				9C1C72411B747EC6003ACFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJTextFieldViewDemo;
+			productName = WJTextFieldViewDemo;
+			productReference = 9C1C72431B747EC6003ACFF8 /* WJTextFieldViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C1C725B1B747EC6003ACFF8 /* WJTextFieldViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1C72691B747EC6003ACFF8 /* Build configuration list for PBXNativeTarget "WJTextFieldViewDemoTests" */;
+			buildPhases = (
+				9C1C72581B747EC6003ACFF8 /* Sources */,
+				9C1C72591B747EC6003ACFF8 /* Frameworks */,
+				9C1C725A1B747EC6003ACFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C1C725E1B747EC6003ACFF8 /* PBXTargetDependency */,
+			);
+			name = WJTextFieldViewDemoTests;
+			productName = WJTextFieldViewDemoTests;
+			productReference = 9C1C725C1B747EC6003ACFF8 /* WJTextFieldViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C1C723B1B747EC6003ACFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = WJ;
+				TargetAttributes = {
+					9C1C72421B747EC6003ACFF8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9C1C725B1B747EC6003ACFF8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9C1C72421B747EC6003ACFF8;
+					};
+				};
+			};
+			buildConfigurationList = 9C1C723E1B747EC6003ACFF8 /* Build configuration list for PBXProject "WJTextFieldViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C1C723A1B747EC6003ACFF8;
+			productRefGroup = 9C1C72441B747EC6003ACFF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C1C72421B747EC6003ACFF8 /* WJTextFieldViewDemo */,
+				9C1C725B1B747EC6003ACFF8 /* WJTextFieldViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C1C72411B747EC6003ACFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1C72791B748231003ACFF8 /* common_edit_bg@2x.png in Resources */,
+				9C1C727B1B748B07003ACFF8 /* wj.gif in Resources */,
+				9C1C72521B747EC6003ACFF8 /* Main.storyboard in Resources */,
+				9C1C72571B747EC6003ACFF8 /* LaunchScreen.xib in Resources */,
+				9C1C72721B747F17003ACFF8 /* LICENSE in Resources */,
+				9C1C72541B747EC6003ACFF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1C725A1B747EC6003ACFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C1C723F1B747EC6003ACFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1C724F1B747EC6003ACFF8 /* ViewController.m in Sources */,
+				9C1C724C1B747EC6003ACFF8 /* AppDelegate.m in Sources */,
+				9C1C72491B747EC6003ACFF8 /* main.m in Sources */,
+				9C1C72771B747F71003ACFF8 /* WJTextFieldView.m in Sources */,
+				9C1C72731B747F17003ACFF8 /* MBProgressHUD.m in Sources */,
+				9C1C72741B747F17003ACFF8 /* README.mdown in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1C72581B747EC6003ACFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1C72631B747EC6003ACFF8 /* WJTextFieldViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C1C725E1B747EC6003ACFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C1C72421B747EC6003ACFF8 /* WJTextFieldViewDemo */;
+			targetProxy = 9C1C725D1B747EC6003ACFF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C1C72501B747EC6003ACFF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C1C72511B747EC6003ACFF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C1C72551B747EC6003ACFF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C1C72561B747EC6003ACFF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C1C72641B747EC6003ACFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C1C72651B747EC6003ACFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C1C72671B747EC6003ACFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJTextFieldViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C1C72681B747EC6003ACFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJTextFieldViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C1C726A1B747EC6003ACFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WJTextFieldViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJTextFieldViewDemo.app/WJTextFieldViewDemo";
+			};
+			name = Debug;
+		};
+		9C1C726B1B747EC6003ACFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WJTextFieldViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJTextFieldViewDemo.app/WJTextFieldViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C1C723E1B747EC6003ACFF8 /* Build configuration list for PBXProject "WJTextFieldViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1C72641B747EC6003ACFF8 /* Debug */,
+				9C1C72651B747EC6003ACFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C1C72661B747EC6003ACFF8 /* Build configuration list for PBXNativeTarget "WJTextFieldViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1C72671B747EC6003ACFF8 /* Debug */,
+				9C1C72681B747EC6003ACFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C1C72691B747EC6003ACFF8 /* Build configuration list for PBXNativeTarget "WJTextFieldViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1C726A1B747EC6003ACFF8 /* Debug */,
+				9C1C726B1B747EC6003ACFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C1C723B1B747EC6003ACFF8 /* Project object */;
+}
