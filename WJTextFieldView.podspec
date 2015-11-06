@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WJTextFieldView"
-  s.version      = "0.0.1"
+  s.version      = “0.02”
   s.summary      = "组合View，适合注册登录，填写信息等界面。并对TextField的字符长度进行限制，英文，中文等，包括中文的联想词"
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/WinJayQ/WJTextFieldView.git", :commit => "661c82ea71703a5dda107b39a188924759e3fa12" }
+  s.source       = { :git => "https://github.com/WinJayQ/WJTextFieldView.git", :tag => "0.02" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "WJTextFieldViewDemo/“, "WJTextFieldViewDemo/WJTextFieldView/WJTextFieldView.{h,m}”
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
