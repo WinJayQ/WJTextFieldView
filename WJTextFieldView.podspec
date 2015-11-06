@@ -1,22 +1,8 @@
-#
-#  Be sure to run `pod spec lint WJTextFieldView.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |s|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   s.name         = "WJTextFieldView"
-  s.version      = “0.02”
+  s.version      = “0.0.3”
   s.summary      = "组合View，适合注册登录，填写信息等界面。并对TextField的字符长度进行限制，英文，中文等，包括中文的联想词"
 
   s.description  = <<-DESC
@@ -39,7 +25,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +39,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "WinJayQ" => "email@address.com" }
+  s.author             = { "WinJayQ" => “409747660@qq.com" }
   # Or just: s.author    = "WinJayQ"
   # s.authors            = { "WinJayQ" => "email@address.com" }
   # s.social_media_url   = "http://twitter.com/WinJayQ"
@@ -68,7 +54,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, “7.0”
 
   #  When using multiple platforms
-  # s.ios.deployment_target = “7.0”
+  # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
 
 
@@ -78,7 +64,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/WinJayQ/WJTextFieldView.git", :tag => "0.02" }
+  s.source       = { :git => "https://github.com/WinJayQ/WJTextFieldView.git", :tag => “0.0.3” }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +75,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "WJTextFieldViewDemo/“, "WJTextFieldViewDemo/WJTextFieldView/WJTextFieldView.{h,m}”
+  s.source_files  = "WJTextFieldViewDemo/“, "WJTextFieldViewDemo/WJTextFieldView/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
